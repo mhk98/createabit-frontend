@@ -8,9 +8,9 @@ import { useGetProductsQuery } from "@/features/product/productApi";
 import Link from "next/link";
 import Head from "next/head";
 import Loader from "@/components/Common/Loader";
-import DarkNavbar from "../dark-navbar";
 import { useGetProductCategoryApiQuery } from "@/features/product/productCategory";
 import { useRouter } from "next/router";
+import LightNavbar from "../light-navbar";
 
 function PageProductCategory({ lightMode }) {
   const router = useRouter();
@@ -80,7 +80,7 @@ function PageProductCategory({ lightMode }) {
         <title>Geekfolio - Services</title>
       </Head>
       <Loader />
-      <DarkNavbar></DarkNavbar>
+      <LightNavbar></LightNavbar>
       <>
         {error ? (
           <>Oh no, there was an error</>
