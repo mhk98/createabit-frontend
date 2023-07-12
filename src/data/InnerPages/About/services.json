@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "assets/imgs/serv-icons/0.png",
+    "title": "WEBSITE Development",
+    "text": "Our web application development department is equipped with the state-of-the-art equipment and a highly-trained team of development that generates outstanding ideas for our client’s project. They work closely with you to generate optimal outcomes for your application/ software concerns. We complete your project within the given deadline."
+  },
+  {
+    "id": 2,
+    "image": "assets/imgs/serv-icons/1.png",
+    "title": "WEB APPLICATION",
+    "text": "Our web application development department is equipped with the state-of-the-art equipment and a highly-trained team of development that generates outstanding ideas for our client’s project. They work closely with you to generate optimal outcomes for your application/ software concerns. We complete your project within the given deadline."
+  },
+  {
+    "id": 3,
+    "image": "assets/imgs/serv-icons/2.png",
+    "title": "Mobile Apps Development",
+    "text": "We specialize in design and development for mobile apps and websites. We design websites and mobile apps that are further facilitated with a high-performance rate. Our team of developers and designers at Createabit Design are acquainted with the creation and development of iOS and Android apps that are user-specific and mobile-friendly-specific."
+  },
+  {
+    "id": 4,
+    "image": "assets/imgs/serv-icons/2.png",
+    "title": "DIGITAL MARKETING & SEO",
+    "text": "Createabit Design focuses on utilizes the approach that focuses on users to generate solutions for digital marketing and SEO areas. We use business-oriented design solutions to cater to the digital marketing and SEO concerns of our clients."
+  },
+  {
+    "id": 5,
+    "image": "assets/imgs/serv-icons/2.png",
+    "title": "GRAPHICS DESIGN & PRINTING",
+    "text": "Createabit Design focuses on utilizes the approach that focuses on users to generate solutions for digital marketing and SEO areas. We use business-oriented design solutions to cater to the digital marketing and SEO concerns of our clients."
+  },
+  {
+    "id": 5,
+    "image": "assets/imgs/serv-icons/2.png",
+    "title": "VIDEO & ANIMATION",
+    "text": "Createabit Design focuses on utilizes the approach that focuses on users to generate solutions for digital marketing and SEO areas. We use business-oriented design solutions to cater to the digital marketing and SEO concerns of our clients."
+  }
+]

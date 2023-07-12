@@ -1,0 +1,9 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/dark/page-service-details/[id]": "pages/dark/page-service-details/[id].js",
+  "/dark/page-services": "pages/dark/page-services.js",
+  "/dark/page-product-category/[id]": "pages/dark/page-product-category/[id].js",
+  "/dark/page-products": "pages/dark/page-products.js"
+}
