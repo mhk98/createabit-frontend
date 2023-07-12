@@ -13,8 +13,8 @@ function PageServiceDetails() {
   const { id } = router.query;
   console.log("keyword", id);
   const { data, isLoading, isError, isSuccess, error } =
-    useGetProductCategoryApiQuery(id);
-  const productCategory = data?.data;
+    useGetServiceDetailsQuery(id);
+  const serviceDetails = data?.data;
   // console.log("serviceDetails", serviceDetails.title);
   return (
     <>
@@ -34,14 +34,14 @@ function PageServiceDetails() {
             <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4 items-start">
               <div>
                 <img
-                  src={`http://localhost:5000/${productCategory?.image}`}
+                  src={`http://localhost:5000/${serviceDetails?.image}`}
                   alt=""
                 />
               </div>
               <div>
-                <h1 className="text-4xl">{productCategory?.title}</h1>
-                <p className="mt-8">{productCategory?.text1}</p> <br />
-                <p>{productCategory?.text2}</p>
+                <h1 className="text-4xl">{serviceDetails?.title}</h1>
+                <p className="mt-8">{serviceDetails?.text1}</p> <br />
+                <p>{serviceDetails?.text2}</p>
               </div>
             </div>
 
