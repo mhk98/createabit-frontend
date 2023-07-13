@@ -32,11 +32,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/dark/page-product-category/[id].js"
-    ],
-    "/dark/page-service-details/[id]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/dark/page-service-details/[id].js"
     ]
   },
   "ampFirstPages": []

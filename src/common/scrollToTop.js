@@ -26,7 +26,7 @@ const scrollToTop = () => {
       } else {
         document
           .querySelector(".progress-wrap")
-          .classList.remove("active-progress");
+          ?.classList?.remove("active-progress");
       }
     });
     progressWrap.addEventListener("click", function (event) {
