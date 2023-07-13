@@ -99,7 +99,7 @@ function PageProductCategory({ lightMode }) {
                         key={index}
                       >
                         <img
-                          src={`http://localhost:5000/${item?.image}`}
+                          src={`https://createabit-backend.onrender.com/${item?.image}`}
                           alt=""
                         />
                       </div>

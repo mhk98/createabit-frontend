@@ -83,7 +83,7 @@ function Portfolio1({ lightMode }) {
                       key={index}
                     >
                       <img
-                        src={`http://localhost:5000/${item?.image}`}
+                        src={`https://createabit-backend.onrender.com/${item?.image}`}
                         alt=""
                       />
                     </div>
@@ -99,7 +99,7 @@ function Portfolio1({ lightMode }) {
                   >
                     <div className="">
                       {/* <img
-                        src={`http://localhost:5000/${item?.image}`}
+                        src={`https://createabit-backend.onrender.com/${item?.image}`}
                         alt=""
                       /> */}
                       {/* <img src={item.image} alt="" /> */}

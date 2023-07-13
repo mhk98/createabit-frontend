@@ -33,7 +33,7 @@ function PageServiceDetails() {
             <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4 items-start my-16">
               <div>
                 <img
-                  src={`http://localhost:5000/${serviceDetails?.image}`}
+                  src={`https://createabit-backend.onrender.com/${serviceDetails?.image}`}
                   alt=""
                 />
               </div>
