@@ -106,7 +106,7 @@ function Portfolio({ lightMode }) {
                     <span className="sub-title mb-15">
                       {item.number} {item.type}
                     </span>
-                    <h2 className="mb-15">{item.title}.</h2>
+                    <h3 className="mb-15">{item.title}.</h3>
                     <div className="row justify-content-center">
                       <div className="col-md-11">
                         <p>{item.text}.</p>
