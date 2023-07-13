@@ -23,55 +23,55 @@ function PageProductCategory({ lightMode }) {
 
   console.log("productCategory", productCategory);
 
-  useEffect(() => {
-    loadBackgroudImages();
-    window.addEventListener("scroll", handleShowTabs);
-    return () => window.removeEventListener("scroll", handleShowTabs);
-  }, []);
+  // useEffect(() => {
+  //   loadBackgroudImages();
+  //   window.addEventListener("scroll", handleShowTabs);
+  //   return () => window.removeEventListener("scroll", handleShowTabs);
+  // }, []);
 
-  function handleShowTabs() {
-    isInView({
-      selector: ".portfolio-fixed .sub-bg .cont",
-      isElements: true,
-      callback(element) {
-        element.classList.add("current");
-        document
-          .querySelector("#" + element.getAttribute("data-tab"))
-          .classList.add("current");
-      },
-      whenOutOfView(element) {
-        element.classList?.remove("current");
-        document
-          .querySelector("#" + element.getAttribute("data-tab"))
-          .classList?.remove("current");
-      },
-    });
+  // function handleShowTabs() {
+  //   isInView({
+  //     selector: ".portfolio-fixed .sub-bg .cont",
+  //     isElements: true,
+  //     callback(element) {
+  //       element.classList.add("current");
+  //       document
+  //         .querySelector("#" + element.getAttribute("data-tab"))
+  //         .classList.add("current");
+  //     },
+  //     whenOutOfView(element) {
+  //       element.classList?.remove("current");
+  //       document
+  //         .querySelector("#" + element.getAttribute("data-tab"))
+  //         .classList?.remove("current");
+  //     },
+  //   });
 
-    const leftSide = document.getElementById("sticky_item");
-    if (!leftSide) return;
-    const width = leftSide.getBoundingClientRect().width;
-    const portfolio = document
-      .querySelector(".portfolio-fixed")
-      ?.getBoundingClientRect();
+  //   const leftSide = document.getElementById("sticky_item");
+  //   if (!leftSide) return;
+  //   const width = leftSide.getBoundingClientRect().width;
+  //   const portfolio = document
+  //     .querySelector(".portfolio-fixed")
+  //     ?.getBoundingClientRect();
 
-    if (portfolio.top < 75 && portfolio.height / 2 < portfolio.bottom + 400) {
-      leftSide.style.position = "fixed";
-      leftSide.style.top = "0px";
-      leftSide.style.width = width + "px";
-      leftSide.classList.remove("is_stuck");
-    } else if (portfolio.height / 2 > portfolio.bottom + 400) {
-      leftSide.style.position = "absolute";
-      leftSide.style.top = "auto";
-      leftSide.style.bottom = "0";
-      leftSide.style.width = width + "px";
-      leftSide.classList.add("is_stuck");
-    } else {
-      leftSide.style.position = "relative";
-      leftSide.style.top = "unset";
-      leftSide.style.bottom = "unset";
-      leftSide.style.width = "auto";
-    }
-  }
+  //   if (portfolio.top < 75 && portfolio.height / 2 < portfolio.bottom + 400) {
+  //     leftSide.style.position = "fixed";
+  //     leftSide.style.top = "0px";
+  //     leftSide.style.width = width + "px";
+  //     leftSide.classList.remove("is_stuck");
+  //   } else if (portfolio.height / 2 > portfolio.bottom + 400) {
+  //     leftSide.style.position = "absolute";
+  //     leftSide.style.top = "auto";
+  //     leftSide.style.bottom = "0";
+  //     leftSide.style.width = width + "px";
+  //     leftSide.classList.add("is_stuck");
+  //   } else {
+  //     leftSide.style.position = "relative";
+  //     leftSide.style.top = "unset";
+  //     leftSide.style.bottom = "unset";
+  //     leftSide.style.width = "auto";
+  //   }
+  // }
 
   return (
     <>
